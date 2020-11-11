@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+<div class="container">
+
+  <h3>Input a GPM and PSI to get a Nozzle Number</h3>
+  <div class="calc-container nozzle-calc-container">
+    <div class="inputs">
+      <input class="noznum-gpm-input" type="text" placeholder="GPM">
+      <input class="noznum-psi-input" type="text" placeholder="PSI">
+      <button class="noznum-submit">GET NOZZLE #</button>
+    </div>
+    <div class="results">
+      <h4>RESULT</h4>
+      <div class="answer noznum-answer">-</div>
+    </div>
+  </div>
+  
+  <h3>Input a Nozzle Number and PSI to get GPM</h3>
+  <div class="calc-container gpmCalc-container">
+    <div class="inputs">
+      <input class="gpmcalc-noznum-input" type="text" placeholder="Nozzle Number">
+      <input class="gpmcalc-psi-input" type="text" placeholder="PSI">
+      <button class="gpmcalc-submit">GET GPM</button>
+    </div>
+    <div class="results">
+      <h4>RESULT</h4>
+      <div class="answer gpmcalc-answer">-</div>
+    </div>
+  </div>
+  
+  <h3>Input a Nozzle Number and GPM to get PSI</h3>
+  <div class="calc-container psiCalc-container">
+    <div class="inputs">
+      <input class="psiCalc-noznum-input" type="text" placeholder="Nozzle Number">
+      <input class="psiCalc-gpm-input" type="text" placeholder="GPM">
+      <button class="psiCalc-submit">GET PSI</button>
+    </div>
+    <div class="results">
+      <h4>RESULT</h4>
+      <div class="answer psiCalc-answer">-</div>
+    </div>
+  </div>
+  
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
